@@ -53,7 +53,9 @@ class _HomeState extends State<Home> {
         width: width,
         portrait: portrait,
       ),
-      bottomNavigationBar: BottomNavigationBar,
+      bottomNavigationBar: BottomNavigationBar(
+        items: [],
+      ),
       // bottomNavigationBar: bottomNav(context, isDark, height, width, portrait),
     );
   }
